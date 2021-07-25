@@ -1,0 +1,9 @@
+.container {
+	background: cadetblue;
+	margin-bottom: 2%;
+}
+.works{
+	display: flex;
+	justify-content: space-around;
+
+}
