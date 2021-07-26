@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-direction: column
+}
+.input {
+    margin-bottom: 10px;
+}
+.area{
+    margin-bottom: 10px;
+}

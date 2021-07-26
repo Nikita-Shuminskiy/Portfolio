@@ -4,6 +4,8 @@ import {AboutMe} from "./Components/About-me/About_me";
 import {Skills} from "./Components/Skills/Skills";
 import {MyWorks} from "./Components/My_work/My_works";
 import {Options} from "./Components/OptionsWork/Options";
+import {Contacts} from "./Components/Contacts/Contacts";
+import {Footer} from "./Components/Footer/Footer";
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
             <Skills/>
             <MyWorks/>
             <Options/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }
