@@ -1,0 +1,22 @@
+.meTitle{
+	color: #fff;
+	margin: 0;
+	font-weight: 600;
+	font-size: 55px;
+}
+.container{
+	background-image: url(https://sun9-54.userapi.com/impf/c847219/v847219266/b95f0/Hg1xwzb87ew.jpg?size=1200x800&quality=96&sign=b251698eb4cf06ce23d4dcefbe6afac6&type=album);
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 600px 0;
+}

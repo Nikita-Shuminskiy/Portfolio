@@ -7,7 +7,6 @@ export const Contacts = () => {
         <div className={style.container}>
             <h2>Contacts</h2>
             <EntryField/>
-            <button>Send</button>
         </div>
     );
 };

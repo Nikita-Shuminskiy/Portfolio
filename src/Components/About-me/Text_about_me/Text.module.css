@@ -1,0 +1,30 @@
+
+.pills {
+	margin-left: 0;
+	list-style: none;
+	counter-reset: li;
+	font-family: calibri;
+}
+.pills li {
+	padding: 10px 0;
+	position: relative;
+	margin-bottom: 0.75em;
+	background: #666;
+}
+
+.pills li:before {
+	padding: 10px 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -1.5em;
+	width: 1.875em;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	background:#666 ;
+	border-bottom-left-radius: 70em;
+	border-top-left-radius: 70em;
+	counter-increment: li;
+	content: counter(li);
+}

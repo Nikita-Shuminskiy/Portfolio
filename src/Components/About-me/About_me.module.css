@@ -1,8 +1,26 @@
 .container{
-	background: cadetblue;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	align-items: center;
-	margin-bottom: 2%;
+	padding: 100px 0;
+	position: relative;
+	background-color: #0C0C0C;
+}
+.svgTop {
+	position: absolute;
+	bottom: 99%;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+	fill: #0C0C0C;
+}
+.svgFooter{
+	position: absolute;
+	top: 97%;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+	fill: #0C0C0C;
+	overflow: hidden;
 }
