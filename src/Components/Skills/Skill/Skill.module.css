@@ -1,3 +1,13 @@
-.img{
-	width: 30%;
+.container {
+	display: inline-flex;
+	flex-wrap: wrap;
+	z-index: 4;
+}
+
+.imgIcon {
+	width: 10%;
+}
+
+.itemContainer {
+
 }

@@ -79,7 +79,7 @@
 	opacity: 0;
 	background: rgba(85, 78, 78, 0.62);
 	color: #eee;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 
 .viewFirst h2 {

@@ -20,11 +20,11 @@ function App() {
 
                     <AboutMe/>
 
-               {/*     <Skills/>*/}
-
                     <MyWorks/>
 
-                    <Options/>
+                     <Skills/>
+
+                   {/* <Options/>*/}
 
                     <Contacts/>
 

@@ -1,6 +1,10 @@
-.container{
-    background: #14232d;
+.container {
+    width: 100%;
+    height: 80%;
+    background: #111;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
