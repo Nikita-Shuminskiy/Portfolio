@@ -1,9 +1,9 @@
 .container{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: 100px 0;
+	/*padding: 100px 0;*/
 	position: relative;
 	background-color: #0C0C0C;
 }
@@ -23,4 +23,10 @@
 	z-index: 3;
 	fill: #0C0C0C;
 	overflow: hidden;
+}
+@media (max-width: 1124px) {
+	.container {flex-direction: column-reverse}
+}
+@media (max-width: 600px) {
+	.svgFooter {display: none}
 }

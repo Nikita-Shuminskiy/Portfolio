@@ -1,30 +1,98 @@
 
-.pills {
-	margin-left: 0;
-	list-style: none;
-	counter-reset: li;
-	font-family: calibri;
+.container{
+	width: 40%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5%;
 }
-.pills li {
-	padding: 10px 0;
-	position: relative;
-	margin-bottom: 0.75em;
-	background: #666;
+@media (max-width: 1124px) {
+	.container {
+		width: 70%;
+		margin-top: 5%;
+	}
 }
 
-.pills li:before {
-	padding: 10px 0;
+.list4b {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0;
+	list-style: none;
+	counter-reset: li;
+}
+.list4b li {
+	color: white;
+	position: relative;
+	padding: 12px 20px 20px 28px;
+	margin-left: 40px;
+	transition-duration: 0.3s;
+}
+
+.list4b li:before {
+	border: 6px solid transparent;
+	line-height: 30px;
 	position: absolute;
 	top: 0;
-	bottom: 0;
-	left: -1.5em;
-	width: 1.875em;
+	left: -30px;
+	width: 42px;
 	text-align: center;
-	color: #000000;
+	font-size: 13px;
 	font-weight: bold;
-	background:#666 ;
-	border-bottom-left-radius: 70em;
-	border-top-left-radius: 70em;
+	color: #ADCEE9;
 	counter-increment: li;
 	content: counter(li);
+	transition-duration: 0.3s;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.list4b li:hover:before {
+	color: #337AB7;
+}
+
+.list4b li:after {
+	position: absolute;
+	top: 0;
+	left: -30px;
+	width: 42px;
+	height: 42px;
+	border: 6px solid #DDDDDD;
+	border-radius: 50%;
+	content: '';
+	opacity: 0.5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.list4b li:hover:after {
+	animation: 500ms ease-in-out 0s bounceIn;
+	opacity: 1;
+	border: 6px solid #ADCEE9;
+}
+
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale3d(.3, .3, .3);
+	}
+	20% {
+		transform: scale3d(1.3, 1.3, 1.3);
+	}
+	40% {
+		transform: scale3d(.9, .9, .9);
+	}
+	60% {
+		opacity: 1;
+		transform: scale3d(1.03, 1.03, 1.03);
+	}
+	80% {
+		transform: scale3d(.97, .97, .97);
+	}
+	to {
+		opacity: 1;
+		transform: scale3d(1, 1, 1);
+	}
 }
