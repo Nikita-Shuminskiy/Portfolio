@@ -1,13 +1,10 @@
 .container {
-	display: inline-flex;
-	flex-wrap: wrap;
-	z-index: 4;
+	text-align: center;
+	padding: 30px 10px;
 }
+.textSkill{
 
+}
 .imgIcon {
-	width: 10%;
-}
-
-.itemContainer {
-
+	width: 15%;
 }

@@ -4,12 +4,13 @@
 	background: #0C0C0C;
 	padding-top: 200px;
 	padding-bottom: 50px;
+
 }
 
 .skill {
-	width: 103%;
 	display: flex;
-	flex-flow: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .svgFooter{
 	position: absolute;

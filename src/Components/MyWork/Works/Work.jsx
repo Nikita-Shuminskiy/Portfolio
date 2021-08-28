@@ -11,9 +11,7 @@ export const Work = (props) => {
                     <p>A cool description of some sort between these tags. I am so cool and awesomely awesome.</p>
                     <a href="#" className={style.info}>Read More</a>
                 </div>
-
             </div>
-
         </div>
     );
 };
