@@ -1,3 +1,5 @@
+@import 'src/Components/Common/Styles/Sass/Variants';
+
 .container {
 	width: 100%;
 	height: auto;
@@ -6,7 +8,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 	position: relative;
-	background: #111;
+	background:$bgSecond-color;
 	padding-top: 200px;
 	padding-bottom: 50px;
 

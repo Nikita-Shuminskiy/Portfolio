@@ -1,7 +1,9 @@
+@import 'src/Components/Common/Styles/Sass/Variants';
+
 .container {
     width: 100%;
     height: 80%;
-    background: #111;
+    background: $bgSecond-color;
     display: flex;
     flex-direction: column;
     align-items: center;

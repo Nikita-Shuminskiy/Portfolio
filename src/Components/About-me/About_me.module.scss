@@ -3,9 +3,6 @@
 
 .container{
 	@include flex(flex,space-evenly,wrap);
-	/*display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;*/
 	align-items: center;
 	position: relative;
 	background-color: $primary-color;

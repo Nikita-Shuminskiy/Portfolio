@@ -1,0 +1,18 @@
+@import 'src/Components/Common/Styles/Sass/Variants';
+.container{
+	position: fixed;
+	top: 5%;
+	right: 30%;
+	z-index: 10;
+	.navBar {
+		display: inline-flex;
+		.navLink {
+			color: $textColor;
+			font-size: 16px;
+			text-transform: uppercase;
+			padding-left: 10%;
+		}
+	}
+}
+
+
