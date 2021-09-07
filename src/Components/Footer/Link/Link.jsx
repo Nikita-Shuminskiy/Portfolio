@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Link.module.css'
+import style from './Link.module.scss'
 
 export const Link = () => {
     return (

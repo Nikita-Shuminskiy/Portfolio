@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "./Link/Link";
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 
 export const Footer = () => {
     return (

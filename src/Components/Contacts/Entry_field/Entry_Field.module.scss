@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+    .input {
+        margin-bottom: 10px;
+    }
+    .area{
+        margin-bottom: 10px;
+    }
+}

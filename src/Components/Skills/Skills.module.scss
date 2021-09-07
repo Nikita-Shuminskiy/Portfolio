@@ -4,21 +4,21 @@
 	background: #0C0C0C;
 	padding-top: 200px;
 	padding-bottom: 50px;
-
+	.skill {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.svgFooter{
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
 }
 
-.skill {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.svgFooter{
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-}
+
 /*
 @media (max-width: 1024px) {
 	.skill {

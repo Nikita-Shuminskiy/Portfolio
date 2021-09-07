@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skills.module.css'
+import style from './Skills.module.scss'
 import {Skill} from "./Skill/Skill";
 import {Title} from "../Common/Title/Title";
 

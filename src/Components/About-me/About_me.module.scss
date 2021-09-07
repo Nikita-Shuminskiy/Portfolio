@@ -1,0 +1,101 @@
+@import 'src/Components/Common/Styles/Sass/Variants';
+@import 'src/Components/Common/Styles/Sass/Mixins';
+
+.container{
+	@include flex(flex,space-evenly,wrap);
+	/*display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;*/
+	align-items: center;
+	position: relative;
+	background-color: $primary-color;
+	@media (max-width: 1124px) {
+		flex-direction: column-reverse
+	}
+	.svgTop {
+	position: absolute;
+	bottom: 99%;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+	fill: #0C0C0C;
+}
+	.img {
+		width: 15%;
+		height: auto;
+		@media (max-width: 1129px) {
+				width: 70%;
+		}
+	}
+	.textContainer {
+		width: 30%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 5%;
+		@media (max-width: 1124px) {
+				width: 70%;
+				margin-top: 5%;
+		}
+	}
+	.push {
+		list-style: none;
+		font-family: sans-serif;
+		li {
+			position: relative;
+			padding: 20px 0 20px 40px;
+			color: #fff;
+			font-variant: small-caps;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		li:before {
+			position: absolute;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background: #4F5151;
+			content: "";
+			left: 0;
+			transition: .3s ease-in-out;
+			top: 27px;
+		}
+		li:after {
+			position: absolute;
+			border-left: 1px dotted #4F5151;
+			width: 1px;
+			bottom: -12px;
+			content: "";
+			left: 3px;
+			top: 48px;
+		}
+		li:hover:before {
+			box-shadow: 0 0 0 10px rgba(0, 0, 0, .2)
+		}
+		li:last-child:after {
+			content: none;
+		}
+	}
+	.svgFooter {
+		position: absolute;
+		top: 97%;
+		left: 0;
+		width: 100%;
+		z-index: 3;
+		fill: #0C0C0C;
+		overflow: hidden;
+		@media (max-width: 600px) {
+				display: none
+		}
+	}
+
+}
+
+
+
+
+
+
+
+

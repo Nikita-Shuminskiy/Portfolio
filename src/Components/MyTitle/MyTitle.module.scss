@@ -1,0 +1,24 @@
+@import 'src/Components/Common/Styles/Sass/Variants';
+
+.container{
+	background: no-repeat url("./src/img/backgroundIMG.jpg");
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	min-height: 120vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.myTitle{
+		color: $textColor;
+		margin: 0;
+		font-size: 40px;
+		font-weight: 800;
+		@media screen and (max-width: 767px) {
+			font-size: 25px;
+		}
+	}
+
+}

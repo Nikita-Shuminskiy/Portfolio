@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Options.module.css'
+import style from './Options.module.scss'
 
 export const Options = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Entry_Field.module.css'
+import style from './Entry_Field.module.scss'
 
 export const EntryField = () => {
     return (

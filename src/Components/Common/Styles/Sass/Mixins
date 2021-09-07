@@ -1,0 +1,9 @@
+@import './Variants';
+
+@mixin flex($display, $justify-content,$flex-wrap){
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+

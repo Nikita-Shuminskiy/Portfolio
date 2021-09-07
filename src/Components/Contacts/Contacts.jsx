@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Contacts.module.css'
+import style from './Contacts.module.scss'
 import {EntryField} from "./Entry_field/Entry_Field";
 import {Title} from "../Common/Title/Title";
 
