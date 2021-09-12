@@ -5,7 +5,7 @@ import {Title} from "../Common/Title/Title";
 
 export const Skills = () => {
     return (
-        <div className={style.container} >
+        <div id={'skills'} className={style.container} >
             <Title title={'My Skills'} />
           <div className={style.skill}>
               <Skill/>

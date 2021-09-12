@@ -1,18 +1,29 @@
 @import 'src/Components/Common/Styles/Sass/Variants';
-.container{
+
+
+.nav{
 	position: fixed;
 	top: 5%;
 	right: 30%;
 	z-index: 10;
-	.navBar {
-		display: inline-flex;
-		.navLink {
+	display: inline-flex;
+		a {
+			cursor: pointer;
 			color: $textColor;
 			font-size: 16px;
 			text-transform: uppercase;
 			padding-left: 10%;
+			&:hover{
+				text-decoration: none;
+				color: blueviolet;
+			}
 		}
-	}
+		.active{
+			color: red;
+		}
+		@media screen and (max-width: 600px) {
+			display: none;
+		}
 }
 
 

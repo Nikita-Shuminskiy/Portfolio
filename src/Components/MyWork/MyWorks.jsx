@@ -5,7 +5,7 @@ import {Title} from "../Common/Title/Title";
 
 export const MyWorks = () => {
     return (
-        <div className={style.container}>
+        <div id={'works'} className={style.container}>
             <Title title={'My Projects'}/>
            <div className={style.works}>
                <Work img={'https://image.shutterstock.com/image-vector/do-list-plan-reminder-hand-260nw-562119679.jpg'}/>

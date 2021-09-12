@@ -4,7 +4,7 @@ import style from './Footer.module.scss'
 
 export const Footer = () => {
     return (
-        <div className={style.container}>
+        <div id={'contact'}  className={style.container}>
             <h2>Nick Shuminskiy</h2>
           <Link/>
             <h5>2021 All rights reserved &#9913;</h5>

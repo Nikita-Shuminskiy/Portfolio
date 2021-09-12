@@ -5,7 +5,7 @@ import {Title} from "../Common/Title/Title";
 
 export const AboutMe = () => {
     return (
-        <div className={style.container} >
+        <div id={'main'} className={style.container} >
                 <svg className={style.svgTop} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                     <path fill="#0C0C0C" fill-opacity="1" d="M0,0L480,288L960,64L1440,32L1440,320L960,320L480,320L0,320Z"></path>
                 </svg>
