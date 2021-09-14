@@ -7,23 +7,43 @@
 	right: 30%;
 	z-index: 10;
 	display: inline-flex;
+	text-align: center;
 		a {
 			cursor: pointer;
 			color: $textColor;
 			font-size: 16px;
+			font-weight: 600;
 			text-transform: uppercase;
-			padding-left: 10%;
+			transition: all .5s;
+			margin-right: 12px;
 			&:hover{
-				text-decoration: none;
-				color: blueviolet;
+				color: $textColor;
+				padding-bottom: 8px;
+				border-bottom: 1.2px solid $textColor;
+			
 			}
 		}
 		.active{
-			color: red;
+			color: $textColor;
+			padding-bottom: 8px;
+			border-bottom: 1.2px solid $textColor;
 		}
 		@media screen and (max-width: 600px) {
 			display: none;
 		}
+		
+}
+.scrollMenu{
+	background: #222;
+	height: 50px;
+	width: 34%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+
 }
 
 

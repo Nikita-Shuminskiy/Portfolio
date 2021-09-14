@@ -5,7 +5,7 @@ import {Title} from "../Common/Title/Title";
 
 export const Contacts = () => {
     return (
-        <div  className={style.container}>
+        <div id={'contact'}  className={style.container}>
             <Title title={'Contacts'} />
             <EntryField/>
         </div>

@@ -3,12 +3,17 @@ import style from './Entry_Field.module.scss'
 
 export const EntryField = () => {
     return (
-        <form className={style.container}>
-            <input className={style.input} type="text"/>
-            <input className={style.input} type="text"/>
-            <textarea className={style.area}/>
-            <button type='submit' >Send</button>
+   <div className={style.container}  >
+            <form >
+            <input  type="text" name="name" placeholder="Name *" required="required" data-error="Firstname is required."/>
+            <input type="email" name="email" placeholder="Email *" required="required" data-error="Valid email is required."/>
+            <input type="text" name="subject" placeholder="Subject"/>
+          <div>
+          <textarea name="about you" readOnly   required="required"  cols="80" rows="10"></textarea>
+          </div>
+          <a  className={`${style.btn} ${style.btn4}`}>SEND</a>
         </form>
+   </div>
     );
 };
 
