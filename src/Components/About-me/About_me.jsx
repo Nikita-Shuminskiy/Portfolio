@@ -2,16 +2,40 @@ import React from 'react';
 import style from './About_me.module.scss'
 import photos from "../../img/PhotoTitle.jpg";
 import {Title} from "../Common/Title/Title";
+import Particles from 'react-particles-js';
+
 
 export const AboutMe = () => {
+    const particlesOpt = {
+        "particles": {
+            "number": {
+                "value": 50
+            },
+            "size": {
+                "value": 3
+            }
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                }
+            }
+        }
+    }
+  
     return (
         <div id={'main'} className={style.container} >
+          
                 <svg className={style.svgTop} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                     <path fill="#0C0C0C" fill-opacity="1" d="M0,0L480,288L960,64L1440,32L1440,320L960,320L480,320L0,320Z"></path>
                 </svg>
+                <Particles className={style.particles} params={particlesOpt} />
             <img className={style.img} src={photos} alt="my images"/>
             <div className={style.textContainer} >
                 <Title title={`I'm Nick Shuminsky`} />
+                <h5>Front-end Developer</h5>
                 <div>
                     <p>Lorem Ipsum From USA is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the standard dummy text ever since.
                         Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since
