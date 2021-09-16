@@ -16,10 +16,11 @@ label {
   color: #fff;
 }
 input[type=submit] {
-  background-color: #151515;
+  margin-top: 10px;
+  background-color: #0C0C0C;
   color: #fff;
-  padding: 12px 20px;
-  border: none;
+  padding: 18px 20px;
+  border: 1px solid #fff;
   border-radius: 4px;
   cursor: pointer;
   float: right;
@@ -51,6 +52,8 @@ input[type=submit] {
 .textarea{
   width: 600px;
 }
+
+
 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {

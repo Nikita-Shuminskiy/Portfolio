@@ -1,13 +1,13 @@
 @import 'src/Components/Common/Styles/Sass/Variants';
 
 .container{
+	background: url(backgroundIMG.jpg) no-repeat;
 	background-size: cover;
-	background: url(backgroundIMG.jpg) no-repeat center center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-width: 65%;
-	min-height: 862px;
+	min-height: 900px;
 	.myTitle{
 		color: $textColor;
 		margin: 0;

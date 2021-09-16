@@ -8,9 +8,12 @@
 	padding-bottom: 50px;
 	.skill {
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
+		width: 93%;
+		flex-wrap: wrap;
+		padding-top: 65px;
 	}
+
 	.svgFooter{
 		position: absolute;
 		left: 0;
