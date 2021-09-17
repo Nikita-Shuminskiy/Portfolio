@@ -6,9 +6,6 @@ import ReactTypingEffect from 'react-typing-effect'
 
 
 export const MyTitle = () => {
-
-
-
     return <div className={style.container}>
         <Menu/>
         <MenuBurger/>

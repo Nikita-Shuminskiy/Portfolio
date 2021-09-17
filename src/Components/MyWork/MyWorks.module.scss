@@ -8,7 +8,10 @@
 	flex-wrap: wrap;
 	position: relative;
 	background:$bgSecond-color;
-	padding-top: 350px;
+	padding-top: 200px;
+	@media (max-width: 1129px) {
+		padding-top: 50px;
+	}
 	.works {
 		display: flex;
 		justify-content: space-around;
@@ -18,7 +21,6 @@
 			flex-wrap: wrap
 		}
 	}
-
 	.svgFooter {
 		position: absolute;
 		top: 97%;

@@ -1,7 +1,9 @@
 @import 'src/Components/Common/Styles/Sass/Variants';
 
 .container{
-	background: url(backgroundIMG.jpg) no-repeat;
+	background: url(backgroundIMG.jpg) no-repeat center center;
+	background-color: #464646;
+	background-attachment: fixed;
 	background-size: cover;
 	display: flex;
 	align-items: center;

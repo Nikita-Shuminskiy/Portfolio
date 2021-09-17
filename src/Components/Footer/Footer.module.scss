@@ -8,4 +8,16 @@
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
+    .contactBlock{
+        display: flex;
+        justify-content: space-evenly;
+        a {
+            width: 40%;
+            img {
+                width: 8%;
+                margin-bottom: 10px;
+                height: auto;
+            }
+        }
+    }
 }

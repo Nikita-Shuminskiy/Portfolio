@@ -6,9 +6,8 @@
 	right: 30%;
 	z-index: 10;
 	.burgerNavItems {
-		background-color: brown;
 		position: absolute;
-		height: 0px;
+		height: 0;
 		top: 50px;
 		right: -75px;
 		display: none;
@@ -17,11 +16,11 @@
 			color: $textColor;
 			font-size: 16px;
 			text-transform: uppercase;
-			padding-left: 10%;
-			padding-bottom: 10px;
+			padding-left: 38%;
+			padding-top: 10px;
 			&:hover{
 				text-decoration: none;
-				color: blueviolet;
+				color: red;
 			}
 		}
 	}
@@ -34,18 +33,44 @@
 		justify-content: space-between;
 		align-items: center;
 		flex-wrap: nowrap;
+		.btnContent{
+			transition: background 0.3s ease, color 0.2s linear;
+			margin-top: 10px;
+			width: 100%;
+			height: auto;
+			background: #111;
+		}
 	}
-	.burgerBtn{
-		width: 50px;
-		height: 30px;
-		background-color: burlywood;
+	.burgerBtn {
+		background-color: #fff;
+		color: black;
+		border: 2px solid #e7e7e7;
+		text-decoration: none;
+		display: inline-block;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		cursor: pointer;
+		width: 60px;
+		height: 40px;
 		position: absolute;
 		top: 10px;
 		right: -80px;
+		:hover {background-color: #776e6e;}
 	}
 	@media screen and (min-width: 600px) {
 		display: none;
 	}
 }
+.hamburger {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+
+
+
+
 
 

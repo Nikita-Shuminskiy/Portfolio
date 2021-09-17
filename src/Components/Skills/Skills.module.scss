@@ -6,6 +6,9 @@
 	background:$primary-color;
 	padding-top: 200px;
 	padding-bottom: 50px;
+	@media (max-width: 1024px) {
+		padding-top: 100px;
+     }
 	.skill {
 		display: flex;
 		justify-content: center;
@@ -24,9 +27,4 @@
 }
 
 
-/*
-@media (max-width: 1024px) {
-	.skill {
-		flex-wrap: wrap
-	}
-}*/
+

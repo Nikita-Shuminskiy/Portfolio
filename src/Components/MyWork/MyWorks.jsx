@@ -3,6 +3,10 @@ import style from './MyWorks.module.scss'
 import {Work} from "./Works/Work";
 import {Title} from "../Common/Title/Title";
 import Rotate from 'react-reveal/Rotate';
+import SocialPhoto from '../../img/social_media.jpg'
+import TodoListsPhoto from '../../img/4fd7a3d8c52d410be61a4b3b6e7d3b79.jpg'
+import CounterGif from '../../img/Counter-react-component-with-animation.gif'
+import PortfolioPhoto from '../../img/Blog_Front-End-Portfolio.jpg'
 
 export const MyWorks = () => {
     return (
@@ -10,10 +14,13 @@ export const MyWorks = () => {
             <Title title={'My Projects'}/>
            <div className={style.works}>
                <Rotate top right>
-                   <Work img={'https://image.shutterstock.com/image-vector/do-list-plan-reminder-hand-260nw-562119679.jpg'}/>
-                   <Work img={'https://image.shutterstock.com/image-vector/do-list-plan-reminder-hand-260nw-562119679.jpg'} />
-                   <Work img={'https://image.shutterstock.com/image-vector/do-list-plan-reminder-hand-260nw-562119679.jpg'}/>
-                   <Work img={'https://image.shutterstock.com/image-vector/do-list-plan-reminder-hand-260nw-562119679.jpg'} />
+                   <Work title={'Social Network'} links={'https://nick-gansta.github.io/Social_Network/#/profile'}
+                         img={SocialPhoto}
+
+                   />
+                   <Work title={'Todo List'}  links={'https://github.com/nick-gansta/TodoList'} img={TodoListsPhoto} />
+                   <Work title={'Counter'}  links={'https://github.com/nick-gansta/Counter_React'}  img={CounterGif}/>
+                   <Work title={'Portfolio'}  links={'https://nick-gansta.github.io/Portfolio/'} img={PortfolioPhoto} />
                </Rotate>
            </div>
             <svg className={style.svgFooter} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

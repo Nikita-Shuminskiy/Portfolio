@@ -7,7 +7,7 @@
 	position: relative;
 	background-color: $primary-color;
 	@media (max-width: 1124px) {
-		flex-direction: column-reverse
+
 	}
 	.svgTop {
 	position: absolute;
@@ -29,7 +29,8 @@
 		height: auto;
 		z-index: 3;
 		@media (max-width: 1129px) {
-				width: 50%;
+			padding-top: 10px;
+				width: 45%;
 		}
 	}
 	.textContainer {
