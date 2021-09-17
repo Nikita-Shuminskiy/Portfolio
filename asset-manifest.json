@@ -1,24 +1,41 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5f66f563.chunk.css",
-    "main.js": "/Portfolio/static/js/main.e7636835.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.e7636835.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.b2d4ab92.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c3c16774.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c3c16774.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.2eab3b9b.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.2eab3b9b.js.map",
-    "static/js/2.736e5109.chunk.js": "/Portfolio/static/js/2.736e5109.chunk.js",
-    "static/js/2.736e5109.chunk.js.map": "/Portfolio/static/js/2.736e5109.chunk.js.map",
+    "static/js/2.f8f0c7d7.chunk.js": "/Portfolio/static/js/2.f8f0c7d7.chunk.js",
+    "static/js/2.f8f0c7d7.chunk.js.map": "/Portfolio/static/js/2.f8f0c7d7.chunk.js.map",
     "static/js/3.13d7a5ed.chunk.js": "/Portfolio/static/js/3.13d7a5ed.chunk.js",
     "static/js/3.13d7a5ed.chunk.js.map": "/Portfolio/static/js/3.13d7a5ed.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.5f66f563.chunk.css.map": "/Portfolio/static/css/main.5f66f563.chunk.css.map",
-    "static/js/2.736e5109.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.736e5109.chunk.js.LICENSE.txt",
+    "static/css/main.b2d4ab92.chunk.css.map": "/Portfolio/static/css/main.b2d4ab92.chunk.css.map",
+    "static/js/2.f8f0c7d7.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f8f0c7d7.chunk.js.LICENSE.txt",
+    "static/media/4fd7a3d8c52d410be61a4b3b6e7d3b79.893505d6.jpg": "/Portfolio/static/media/4fd7a3d8c52d410be61a4b3b6e7d3b79.893505d6.jpg",
+    "static/media/Blog_Front-End-Portfolio.0d106244.jpg": "/Portfolio/static/media/Blog_Front-End-Portfolio.0d106244.jpg",
+    "static/media/Counter-react-component-with-animation.661edcf9.gif": "/Portfolio/static/media/Counter-react-component-with-animation.661edcf9.gif",
     "static/media/PhotoTitle.5e68ccb8.jpg": "/Portfolio/static/media/PhotoTitle.5e68ccb8.jpg",
-    "static/media/MyTitle.module.scss": "/Portfolio/static/media/backgroundIMG.cae4d2cc.jpg"
+    "static/media/api.9b8ce223.png": "/Portfolio/static/media/api.9b8ce223.png",
+    "static/media/atom-science-symbol.278206b4.png": "/Portfolio/static/media/atom-science-symbol.278206b4.png",
+    "static/media/MyTitle.module.scss": "/Portfolio/static/media/backgroundIMG.cae4d2cc.jpg",
+    "static/media/git-logo.f3dbc8d0.png": "/Portfolio/static/media/git-logo.f3dbc8d0.png",
+    "static/media/github.553c6615.png": "/Portfolio/static/media/github.553c6615.png",
+    "static/media/html-5.bff30e88.png": "/Portfolio/static/media/html-5.bff30e88.png",
+    "static/media/invention.1295d8c7.png": "/Portfolio/static/media/invention.1295d8c7.png",
+    "static/media/js.a1cc3806.png": "/Portfolio/static/media/js.a1cc3806.png",
+    "static/media/linkedin.cc1494dd.png": "/Portfolio/static/media/linkedin.cc1494dd.png",
+    "static/media/programming.1ab3085a.png": "/Portfolio/static/media/programming.1ab3085a.png",
+    "static/media/sass.1944a760.png": "/Portfolio/static/media/sass.1944a760.png",
+    "static/media/social_media.77f033a8.jpg": "/Portfolio/static/media/social_media.77f033a8.jpg",
+    "static/media/telegram.e9722f26.png": "/Portfolio/static/media/telegram.e9722f26.png",
+    "static/media/test.21f521cb.png": "/Portfolio/static/media/test.21f521cb.png",
+    "static/media/typescript.bc58d6c4.png": "/Portfolio/static/media/typescript.bc58d6c4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2eab3b9b.js",
-    "static/js/2.736e5109.chunk.js",
-    "static/css/main.5f66f563.chunk.css",
-    "static/js/main.e7636835.chunk.js"
+    "static/js/2.f8f0c7d7.chunk.js",
+    "static/css/main.b2d4ab92.chunk.css",
+    "static/js/main.c3c16774.chunk.js"
   ]
 }
