@@ -22,7 +22,7 @@ export const Skills = () => {
                     <Skill title={'React'} img={IconReact}/>
                 </Fade>
                 <Fade right big>
-                    <Skill title={'Redux'} img={IconRedux}/>
+                    <Skill title={'Redux/Redux-Toolkit'} img={IconRedux}/>
                 </Fade>
                 <Fade right big>
                     <Skill title={'TypeScript'} img={IconTypeScript}/>
@@ -31,13 +31,13 @@ export const Skills = () => {
                     <Skill title={'JavaScript'} img={IconJS}/>
                 </Fade>
                 <Fade left big>
-                    <Skill title={'Rest Api'} img={IconRestApi}/>
+                    <Skill title={'Rest Api/Axios'} img={IconRestApi}/>
                 </Fade>
                 <Fade left big>
                     <Skill title={'SCSS/SAAS'} img={IconSaas}/>
                 </Fade>
                 <Fade left big>
-                    <Skill title={'HTML'} img={IconHTML}/>
+                    <Skill title={'HTML/CSS'} img={IconHTML}/>
                 </Fade>
                 <Fade left big>
                     <Skill title={'Git/GitHub'} img={IconGIT}/>

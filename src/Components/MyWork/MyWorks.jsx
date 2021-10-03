@@ -18,7 +18,7 @@ export const MyWorks = () => {
                          img={SocialPhoto}
 
                    />
-                   <Work title={'Todo List'}  links={'https://github.com/nick-gansta/TodoList'} img={TodoListsPhoto} />
+                   <Work title={'Todo List'}  links={'https://github.com/nick-gansta/TodoList'}  img={TodoListsPhoto} />
                    <Work title={'Counter'}  links={'https://github.com/nick-gansta/Counter_React'}  img={CounterGif}/>
                    <Work title={'Portfolio'}  links={'https://nick-gansta.github.io/Portfolio/'} img={PortfolioPhoto} />
                </Rotate>
