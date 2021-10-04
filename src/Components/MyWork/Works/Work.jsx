@@ -6,7 +6,7 @@ export const Work = (props) => {
     return (
         <div className={style.container}>
             <div className={style.holder}>
-                <img className={props.classImg} src={props.img} alt="img-Work"/>
+                <img src={props.img} alt="img-Work"/>
                 <div className={style.block}>
                     <a className={style.btn} href={props.links}>Watch</a>
                 </div>

@@ -52,6 +52,11 @@ input[type=submit] {
 .textarea{
   width: 600px;
 }
+.textSend{
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+}
 
 
 

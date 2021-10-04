@@ -7,13 +7,17 @@
 	text-align: center;
 	box-sizing: border-box;
 	padding: 20px;
+	margin: 0 auto;
 	.imgIcon {
-		width: 70%;
+		width: 90%;
+		height: auto;
 		@media (max-width: 1050px) {
 			width: 50%;
+			height: 50%;
 		}
 		@media (max-width: 620px) {
 			width: 35%;
+			height: 35%;
 		}
 	}
 	p{

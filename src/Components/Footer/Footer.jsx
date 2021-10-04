@@ -10,7 +10,6 @@ import {Title} from "../Common/Title/Title";
 export const Footer = () => {
     return (
         <div  className={style.container}>
-            <Title title={'Nikita Shuminskiy'} />
             <div className={style.contactBlock}>
                 <a title={'Telegram'} href="https://t.me/nickShym">
                     <img src={IconTelegram} alt="Link-Telegram"/>
@@ -25,6 +24,7 @@ export const Footer = () => {
                     <img src={IconGitHub} alt="Git-Hub"/>
                 </a>
             </div>
+            <Title title={'Nikita Shuminskiy'} />
             <p>2021 All rights reserved &#9913;</p>
         </div>
     );

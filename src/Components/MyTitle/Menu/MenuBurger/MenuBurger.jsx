@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import style from './MenuBurger.module.scss'
 import {Link} from "react-scroll";
 import Fade from 'react-reveal/Fade';
+import Links from "../../../Common/Link/Link";
 
 export const MenuBurger = () => {
     const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -10,51 +11,22 @@ export const MenuBurger = () => {
     const openMenuClass = menuIsOpen ? `${style.burgerNavItems} ${style.show}` : style.burgerNavItems
 
 
-    const onBurgerBtnClick = () => {
+    const onBurgerToggleMenu = () => {
         setMenuIsOpen(!menuIsOpen)
     }
-
     return <div className={style.burgerNav}>
         <div className={openMenuClass}>
            <div className={style.btnContent}>
                <Fade top cascade>
-               <Link
-                   activeClass={style.active}
-                   to={'main'}
-                   spy={true}
-                   smooth={true}
-                   offset={1}
-                   duration={500}
-               >Main</Link>
-               <Link
-                   activeClass={style.active}
-                   to={'works'}
-                   spy={true}
-                   smooth={true}
-                   offset={1}
-                   duration={500}
-               >Works</Link>
-               <Link
-                   activeClass={style.active}
-                   to={'skills'}
-                   spy={true}
-                   smooth={true}
-                   offset={1}
-                   duration={500}
-               >Skills</Link>
-               <Link
-                   activeClass={style.active}
-                   to={'contact'}
-                   spy={true}
-                   smooth={true}
-                   offset={1}
-                   duration={500}
-               >Contact</Link>
+                   <Links closeMenu={onBurgerToggleMenu} to={'main'} name={'Main'} />
+                   <Links closeMenu={onBurgerToggleMenu} to={'works'} name={'Works'} />
+                   <Links closeMenu={onBurgerToggleMenu} to={'skills'} name={'Skills'} />
+                   <Links closeMenu={onBurgerToggleMenu} to={'contact'} name={'Contact'} />
                </Fade>
            </div>
         </div>
         <div>
-            <button onClick={onBurgerBtnClick} className={style.burgerBtn}>MENU</button>
+            <button onClick={onBurgerToggleMenu} className={style.burgerBtn}>MENU</button>
         </div>
     </div>
 

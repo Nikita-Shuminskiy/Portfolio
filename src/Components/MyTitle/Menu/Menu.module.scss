@@ -29,7 +29,7 @@
 			padding-bottom: 8px;
 			border-bottom: 1.2px solid $textColor;
 		}
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 800px) {
 			display: none;
 		}
 		
@@ -41,7 +41,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 800px) {
 		display: none;
 	}
 

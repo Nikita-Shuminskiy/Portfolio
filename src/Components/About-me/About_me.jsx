@@ -44,9 +44,11 @@ export const AboutMe = () => {
                   </Flip>
               </div>
                 <div>
-                    <p>Lorem Ipsum From USA is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the standard dummy text ever since.
-                        Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-                        the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Innovative and highly driven Front-End Developer with experience in creating SPA applications using React,
+                        Redux, and TypeScript. Passionate about usability and optimization, always eager to learn and look for ways
+                        to continuously upgrade my technical abilities. I enjoy working collaboratively in a team environment but can
+                        also run with projects on my own. I spend my free time at CodeWars,
+                        read books and work on improving my English. Open to your suggestions!</p>
                 </div>
             </div>
             <svg className={style.svgFooter} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

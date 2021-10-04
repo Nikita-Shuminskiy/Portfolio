@@ -1,0 +1,16 @@
+@import 'src/Components/Common/Styles/Sass/Variants';
+
+a {
+  cursor: pointer;
+  color: $textColor;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  &:hover{
+    text-decoration: none;
+    color: red;
+  }
+}
+.active{
+  color: red;
+}
