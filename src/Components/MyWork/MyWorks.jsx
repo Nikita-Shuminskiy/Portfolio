@@ -7,6 +7,7 @@ import SocialPhoto from '../../img/social_media.jpg'
 import TodoListsPhoto from '../../img/TodoList.jpg'
 import CounterGif from '../../img/Counter-react-component-with-animation.gif'
 import PortfolioPhoto from '../../img/Blog_Front-End-Portfolio.jpg'
+import Cards from '../../img/Cards.jpg'
 
 export const MyWorks = () => {
     return (
@@ -14,12 +15,19 @@ export const MyWorks = () => {
             <Title title={'My Projects'}/>
            <div className={style.works}>
                <Rotate top right>
-                   <Work title={'Social Network'} links={'https://nick-gansta.github.io/Social_Network/#/profile'}
+                   <Work title={'Social Network'}
+                         linkGitHub={'https://github.com/nick-gansta/Social_Network'}
+                         links={'https://nick-gansta.github.io/Social_Network/#/profile'}
                          img={SocialPhoto}
                    />
-                   <Work title={'Todo List'}  links={'https://github.com/nick-gansta/TodoList'} img={TodoListsPhoto} />
-                   <Work title={'Counter'}  links={'https://github.com/nick-gansta/Counter_React'}  img={CounterGif}/>
-                   <Work title={'Portfolio'}  links={'https://nick-gansta.github.io/Portfolio/'} img={PortfolioPhoto} />
+                   <Work title={'Todo List'} linkGitHub={'https://github.com/nick-gansta/TodoList'}
+                         links={'https://nick-gansta.github.io/TodoList/#/'} img={TodoListsPhoto}/>
+                   <Work title={'Counter'} linkGitHub={'https://github.com/nick-gansta/Counter_React'}
+                         img={CounterGif}/>
+                   <Work title={'Portfolio'} linkGitHub={'https://github.com/nick-gansta/Portfolio'}
+                         img={PortfolioPhoto}/>
+                   <Work title={'Cards'} linkGitHub={'https://github.com/nick-gansta/Cards-front-1-0'}
+                         links={'https://nick-gansta.github.io/Cards-front-1-0/#/login'} img={Cards}/>
                </Rotate>
            </div>
             <svg className={style.svgFooter} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

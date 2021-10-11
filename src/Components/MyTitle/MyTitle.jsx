@@ -16,9 +16,6 @@ export const MyTitle = () => {
                 text={["Front-end Developer"]}
             />
         </h1>
-
     </div>
-
-
 };
 

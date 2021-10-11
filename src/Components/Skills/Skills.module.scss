@@ -16,10 +16,18 @@
 		flex-wrap: wrap;
 		padding-top: 65px;
 		margin: 0 auto;
+		@media (max-width: 1024px) {
+			padding-top: 100px;
+		}
 		@media (max-width: 824px) {
+			padding-top: 20px;
 			display: grid;
 			grid-template-columns: 1fr 1fr;
-			padding-top: 20px;
+			grid-template-rows: 1fr 1fr;
+			gap: 0px 0px;
+			grid-template-areas:
+    ". ."
+    ". .";
 			margin: 0 auto;
 		}
 	}

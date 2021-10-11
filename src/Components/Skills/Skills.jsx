@@ -22,7 +22,7 @@ export const Skills = () => {
                     <Skill title={'React'} img={IconReact}/>
                 </Fade>
                 <Fade right big>
-                    <Skill title={'Redux/Redux-Toolkit'} img={IconRedux}/>
+                    <Skill title={'Redux/ReduxToolkit'} img={IconRedux}/>
                 </Fade>
                 <Fade right big>
                     <Skill title={'TypeScript'} img={IconTypeScript}/>

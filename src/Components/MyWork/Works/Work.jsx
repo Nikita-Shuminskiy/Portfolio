@@ -8,7 +8,8 @@ export const Work = (props) => {
             <div className={style.holder}>
                 <img src={props.img} alt="img-Work"/>
                 <div className={style.block}>
-                    <a className={style.btn} href={props.links}>Watch</a>
+                    {props.links && <a className={style.btn} href={props.links} target="_blank">Watch</a>}
+                    <a className={style.btn} href={props.linkGitHub} target="_blank">GitHub</a>
                 </div>
             </div>
             <div>

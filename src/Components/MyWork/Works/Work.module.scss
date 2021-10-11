@@ -1,5 +1,5 @@
 .container{
-  width: 328px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,7 @@
         border-radius: 2px;
         background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
         transition: all .218s ease 0s;
-        margin-top: 70px;
+        margin: 70px 20px 0 20px;
       }
       a.btn:hover {
         color: rgb(255, 251, 251);
@@ -55,9 +55,6 @@
     .holder:hover .block {
       display: block;
     }
-.textBlock p{
-
-}
 }
 img{
   width: 100%;
